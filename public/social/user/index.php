@@ -1,0 +1,47 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Информация о пользователеНовый раздел");
+?> <?$APPLICATION->IncludeComponent(
+	"bitrix:socialnetwork.user_profile",
+	"",
+	Array(
+		"SET_NAV_CHAIN" => "Y",
+		"SHORT_FORM" => "N",
+		"PATH_TO_USER" => "",
+		"PATH_TO_USER_FRIENDS_ADD" => "",
+		"PATH_TO_MESSAGE_FORM" => "",
+		"PATH_TO_MESSAGES_CHAT" => "",
+		"PATH_TO_MESSAGES_USERS_MESSAGES" => "",
+		"PATH_TO_USER_FRIENDS_DELETE" => "",
+		"PATH_TO_USER_FRIENDS" => "",
+		"PATH_TO_SEARCH" => "",
+		"PATH_TO_GROUP_SEARCH" => "",
+		"PATH_TO_LOG" => "",
+		"PATH_TO_SEARCH_INNER" => "",
+		"PATH_TO_GROUP" => "",
+		"PATH_TO_GROUP_EDIT" => "",
+		"PATH_TO_GROUP_CREATE" => "",
+		"PATH_TO_USER_GROUPS" => "",
+		"PATH_TO_USER_EDIT" => "",
+		"PATH_TO_USER_FEATURES" => "",
+		"PATH_TO_USER_SUBSCRIBE" => "",
+		"PATH_TO_USER_SETTINGS_EDIT" => "",
+		"PAGE_VAR" => "",
+		"USER_VAR" => "",
+		"ID" => $id,
+		"SET_TITLE" => "Y",
+		"USER_FIELDS_MAIN" => array(),
+		"USER_PROPERTY_MAIN" => array(),
+		"USER_FIELDS_CONTACT" => array(),
+		"USER_PROPERTY_CONTACT" => array(),
+		"USER_FIELDS_PERSONAL" => array(),
+		"USER_PROPERTY_PERSONAL" => array(),
+		"DATE_TIME_FORMAT" => "d.m.Y H:i:s",
+		"AVATAR_SIZE" => "300",
+		"ITEMS_COUNT" => "6",
+		"SHOW_YEAR" => "Y",
+		"SONET_USER_FIELDS_SEARCHABLE" => array(),
+		"SONET_USER_PROPERTY_SEARCHABLE" => array()
+	),
+false
+);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
