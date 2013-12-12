@@ -1,0 +1,254 @@
+				
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700&subset=cyrillic-ext);
+
+				#logo {
+					padding-top:18px;
+					width:291px;
+					height:120px;
+				}
+
+				#logo span {
+					background: url(./images/logoc.png);
+					background-repeat: no-repeat;
+					background-position: left;
+					background-position: top;
+					width:291px;
+					height:120px;
+					display: block;
+				}
+
+				@media (min-width: 768px) and (max-width: 979px) {
+
+					#logo {
+						padding-top:20px;
+						width:210px;
+						height:73px;
+					}
+
+					#logo span {
+						background: url(./images/logoc.png);
+						background-size: 210px 73px;
+						width:210px;
+						height:73px;
+						display: block;
+					}
+
+				}
+			
+				html, body {
+					background-color: #ffffff;
+					height: 100%;
+					font-family: 'Roboto Condensed', sans-serif;
+				}
+
+				h1 {
+					width:100%;
+					text-align: center;
+				}
+
+				h2 {
+					width:100%;
+					text-align: center;
+				}
+
+				.topline {
+					background-color: #49b173;
+					box-shadow: 0 0 5px 3px #555;
+				}
+				
+				
+				.pageheader {
+					text-align: center;
+				}
+
+				.header_wide {
+					background-color: white;
+					position: relative;
+				}
+
+
+				.logospan {
+					background-color: white;
+					position: relative;
+				}
+
+				.menu_top {
+					background: url(./images/menubg.png);					
+					position: relative;
+										color: white;
+					border-bottom-right-radius: 15px;
+					border-bottom-left-radius: 15px;
+				}
+
+				.menu_top_inner {
+					padding-left: 0px;				
+					padding-right: 15px;
+					padding-top: 22px;
+					padding-bottom: 28px;
+				}
+
+				.menu_top_search {
+					padding-left: 30px;				
+					padding-right: 15px;
+					padding-top: 40px;
+					padding-bottom: 28px;
+				}
+
+				ul#topnav {	
+					width:340px;
+					list-style:none;
+					height:80px;
+				}
+
+				ul#topnav li {
+					display:inline;
+				}
+
+				ul#topnav li a {
+					width:85px;
+					height:80px;
+					float:left;
+					text-align:center;
+				}
+
+				ul#topnav li#topnav-1 a {
+					background:url(./images/m_info_f.png) no-repeat;
+        				background-position: center;				
+				}
+        
+				ul#topnav li#topnav-2 a {
+					background:url(./images/m_user_f.png) no-repeat;
+        				background-position: center;		
+				}
+        
+				ul#topnav li#topnav-3 a {
+					background:url(./images/m_afisha_f.png) no-repeat;
+        				background-position: center;
+				}
+        
+				ul#topnav li#topnav-4 a {
+					background:url(./images/m_key_f.png) no-repeat;
+        				background-position: center;
+				 }
+
+				@media (max-width: 768px) {
+					.menu_top_inner {
+						padding-left: 0px;				
+						padding-right: 15px;
+						padding-top: 0px;
+						padding-bottom: 15px;
+					}
+
+					.menu_top_search {
+	 					padding-left: 30px;				
+	 					padding-right: 15px;
+	 					padding-top: 0px;
+	 					padding-bottom: 28px;
+	 				}
+	 
+				}
+
+				.navtext{
+					height: 64px;
+				}
+
+				a.whitelink{
+					color: white;
+				}
+				
+				a:hover.whitelink{
+					color: #00b5ef;
+				}
+
+				.text-center {
+					text-align: center;
+				}
+
+				.nav-stacked {
+					background-color: white;
+				}		
+
+
+				.left_vmenu {
+					border: 1px solid #c0c0c0;
+					padding: 10px;
+
+				}		
+
+				.left_section {
+					background-color: #8ccb9c;
+					padding: 10px;
+
+				}								
+				
+				.content_section {
+					min-height: 100%;
+					height: auto !important;
+					height: 100%;
+					color: black;
+				}
+
+				.breadcrumbs {
+					margin-top:-45px;
+					height:45px;
+				}
+
+				.height100 {
+					min-height: 100%;
+					height: auto !important;
+					height: 100%;
+				}
+				
+				#wrap {
+					min-height: 100%;
+					height: auto !important;
+					height: 100%;
+					 /* Negative indent footer by it's height */
+					margin: 0 auto -200px;
+				}
+
+				#wrap > .container {
+					padding-top: 60px;
+				}
+
+				footer {
+					background: url(./images/pat.png);
+					color: #121212;
+					height: 200px;
+					width: 100%;
+					margin-top: 50px;
+					padding-top: 50px;
+				}
+
+				#push, #footer-wide {
+					height: 200px;
+				}
+				
+				#auth {
+					position: relative;
+					top: 20px;
+					height: 20px;
+				}
+ 
+				#user-menu  
+				{
+					position: relative; 
+					top: 0;
+					margin: 0;
+					padding: 0;
+					list-style: none;
+					color:white;
+				}
+
+				#user-menu li
+				{
+					float: left;
+					margin: 0 1.5em 0 0;
+					line-height: 2.5em;
+					font-size: 1em; 
+				}
+
+				#user-menu a {
+					color:white;
+					text-decoration: underline;
+				}
